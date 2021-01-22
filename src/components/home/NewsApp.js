@@ -10,10 +10,12 @@ const NewsApp = () => {
   useEffect(() => {
     setLoading(true)
     axios
-      .get(`/news`)
+      .get(
+        `https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key=407ce028abe941a672ad85f05150bc2b5794946edb2240e32d61e2e64f57d21e`
+      )
       .then((response) => {
         setData(response.data)
-        // console.log(response.data)
+        console.log(response.data)
         setLoading(false)
       })
       .catch((err) => {

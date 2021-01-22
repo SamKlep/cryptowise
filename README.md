@@ -1,11 +1,11 @@
 # Crypto Wise
 
-A front-end focused application built with [ React](https://github.com/facebook/create-react-app) and styled with [ React-Bootstrap](https://react-bootstrap.github.io/) that pulls cryptocurrency price & news data from third-party API's.
+A front-end focused application built with [ React](https://github.com/facebook/create-react-app) and styled with [ React-Bootstrap](https://react-bootstrap.github.io/), that pulls cryptocurrency price & news data from third-party API's.
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+ 
 ### `npm start`
 
 Runs the app in the development mode.\
