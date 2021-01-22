@@ -14,7 +14,12 @@ const AboutScreen = () => {
                   <ListGroup.Item>Crypto Wise</ListGroup.Item>
                   <ListGroup.Item>Version 2.0</ListGroup.Item>
                   <ListGroup.Item>
-                    <a href='mailto:sam@samklepper.com'>sam@samklepper.com</a>
+                    <a
+                      href='mailto:sam@samklepper.com'
+                      target='_blank'
+                      rel='noreferrer'>
+                      sam@samklepper.com
+                    </a>
                   </ListGroup.Item>
                 </ListGroup>
               </Container>
